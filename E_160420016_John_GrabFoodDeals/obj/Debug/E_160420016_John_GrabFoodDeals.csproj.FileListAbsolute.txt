@@ -1,0 +1,16 @@
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\bin\Debug\E_160420016_John_GrabFoodDeals.exe.config
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\bin\Debug\E_160420016_John_GrabFoodDeals.exe
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\bin\Debug\E_160420016_John_GrabFoodDeals.pdb
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.csprojAssemblyReference.cache
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.Properties.Resources.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.csproj.GenerateResource.cache
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.csproj.CoreCompileInputs.cache
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.exe
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.pdb
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormAddMenu.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormAddPromo.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormAddRestaurant.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormDisplayMenu.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormDisplayPromo.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormDisplayRestaurant.resources
+K:\.lama\C# Apps\tugas oop\grabapp\E_160420016_John_GrabFoodDeals\E_160420016_John_GrabFoodDeals\obj\Debug\E_160420016_John_GrabFoodDeals.FormMenu.resources

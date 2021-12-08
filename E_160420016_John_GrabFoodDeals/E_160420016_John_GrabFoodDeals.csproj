@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57F4663E-3675-477F-A5CD-7F9D3BD09ADC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>E_160420016_John_GrabFoodDeals</RootNamespace>
+    <AssemblyName>E_160420016_John_GrabFoodDeals</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAddMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddMenu.Designer.cs">
+      <DependentUpon>FormAddMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPromo.Designer.cs">
+      <DependentUpon>FormAddPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddRestaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddRestaurant.Designer.cs">
+      <DependentUpon>FormAddRestaurant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDisplayMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisplayMenu.Designer.cs">
+      <DependentUpon>FormDisplayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDisplayPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisplayPromo.Designer.cs">
+      <DependentUpon>FormDisplayPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDisplayRestaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisplayRestaurant.Designer.cs">
+      <DependentUpon>FormDisplayRestaurant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JohnMenu.cs" />
+    <Compile Include="JohnPromo.cs" />
+    <Compile Include="JohnRestaurant.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddMenu.resx">
+      <DependentUpon>FormAddMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPromo.resx">
+      <DependentUpon>FormAddPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddRestaurant.resx">
+      <DependentUpon>FormAddRestaurant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDisplayMenu.resx">
+      <DependentUpon>FormDisplayMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDisplayPromo.resx">
+      <DependentUpon>FormDisplayPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDisplayRestaurant.resx">
+      <DependentUpon>FormDisplayRestaurant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagramGrabFoodApp.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
